@@ -5,17 +5,15 @@ import "react-table/react-table.css"
 import _ from "lodash"
 import { makeData } from "../Utils"
 
-interface PageContainerProps {
-  title: string
-}
+interface TableExampleProps {}
 
 const data = makeData(10)
 
-const PageContainer: React.FC<PageContainerProps> = props => {
-  const { title } = props
+const TableExample: React.FC<TableExampleProps> = props => {
+  const {} = props
   return (
-    <StyledPageContainer className="FCT">
-      PageContainer! title: {title}
+    <StyledTableExample className="FCT">
+      TableExample!
       <div>
         <ReactTable
           data={data}
@@ -65,13 +63,13 @@ const PageContainer: React.FC<PageContainerProps> = props => {
           }}
         />
       </div>
-    </StyledPageContainer>
+    </StyledTableExample>
   )
 }
 
-const StyledPageContainer = styled.div`
+const StyledTableExample = styled.div`
   width: 100%;
   height: 100vh;
 `
 
-export default PageContainer
+export default TableExample

@@ -14,6 +14,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-feather": "^2.0.3",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
     "react-table": "^6.10.3",
     "styled-components": "^4.3.2",
@@ -42,6 +43,7 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.138",
+    "@types/react-router-dom": "^4.3.5",
     "@types/react-table": "^6.8.5",
     "@types/styled-components": "^4.1.19"
   }
