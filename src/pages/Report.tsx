@@ -8,7 +8,7 @@ interface ReportProps {}
 
 const Report: React.FC<ReportProps> = props => {
   return (
-    <Layout>
+    <Layout screenTitle="Report">
       <StyledReport>Report!</StyledReport>
     </Layout>
   )

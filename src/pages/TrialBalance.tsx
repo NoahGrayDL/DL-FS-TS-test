@@ -8,7 +8,7 @@ interface TrialBalanceProps {}
 
 const TrialBalance: React.FC<TrialBalanceProps> = props => {
   return (
-    <Layout>
+    <Layout screenTitle="Trial Balance">
       <StyledTrialBalance>
         TrialBalance!
         <TableExample />

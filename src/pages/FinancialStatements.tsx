@@ -8,7 +8,7 @@ interface FinancialStatementsProps {}
 
 const FinancialStatements: React.FC<FinancialStatementsProps> = props => {
   return (
-    <Layout>
+    <Layout screenTitle="Financial Statements">
       <StyledFinancialStatements>
         FinancialStatements!
       </StyledFinancialStatements>
