@@ -7,12 +7,12 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = props => {
   const { title } = props
-  return <StyledHeader>Header! title: {title}</StyledHeader>
+  return <StyledHeader className="FRL">Header! title: {title}</StyledHeader>
 }
 
 const StyledHeader = styled.div`
   background: lightgray;
-  height: 2rem;
+  height: 48px;
   width: 100%;
 `
 
